@@ -1,0 +1,60 @@
+
+.my_bg{
+	background: url(../1/2.jpg);
+	width: 100%;
+}
+.my_height{
+	height: 454px;
+}
+._login_width{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	font-size: 9px;
+	color: red;
+}
+.my_style{
+	 background: rgba(28, 33, 43, 0.16);
+}
+ ._login_style{
+	color: #16181B;
+} 
+._login_style:hover{
+	color: #FFEEBA;
+	text-decoration: none;
+}
+.my_footer{
+	width:100% ;height: 30px;
+}
+.my_style1{
+	magin-top:0px;
+	padding-top: 0px;
+}
+.my_button_1{
+	background-color: #3e81c978;
+	width: 212px; 
+	height: 36px;
+	border: 0;
+	outline: 0;
+	border-radius: 4px;
+	margin-top: -5px;
+	
+}
+.btn_1{
+	margin-left: 52px;
+}
+.my_button{
+	background-color: #3e81c978;
+	width: 212px;
+	height: 36px;
+	border: 0;
+	outline: 0;
+	border-radius: 4px;
+	margin-top: 4px;
+	margin-left: 0px;
+	
+}
+.in1{
+	width: 212px;
+	border-radius: 4px;
+}

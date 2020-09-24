@@ -1,0 +1,22 @@
+.top_background_1{
+	background: linear-gradient(to bottom ,#f8f9fa -13%, #0c1e33 182%);
+	height: 33px;
+}
+.my_st{
+	line-height: 40px;
+	margin:0 auto;
+}
+.my_st1{
+	 border: 5px solid #e8e8e836;
+	        
+}
+.my_st2{
+	 border: 1px solid #e8e8e836 !important;
+}
+ a{
+	color: #16181B;
+} 
+a:hover{
+	color: #FFEEBA;
+	text-decoration: none;
+}

@@ -1,0 +1,17 @@
+*{margin: 0; padding: 0;}
+.body_background{
+       background: repeating-linear-gradient(to bottom ,#f8f9fa -44%, #0c1e33 100%);
+   
+}
+.top_background{
+	background: linear-gradient(to bottom ,#f8f9fa -13%, #0c1e33 182%);
+	height: 75px;
+}
+input:focus{
+	outline: 0;
+	border: 0;
+}
+input{
+	outline: 0;  border: 0; 
+	padding: 3px;
+}

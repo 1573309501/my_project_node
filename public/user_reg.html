@@ -1,0 +1,77 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/_user_reg.css">
+		<link rel="stylesheet" href="css/_all.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/_user_reg.js"></script>
+</head>
+	<body class="body_background">
+		<!-- 头部 -->
+			<div class="top_background row no-gutters mb-1">
+				<div class="col-lg-8  col-md-12 ">
+					<div class="h3 mt-1 pl-4 text-muted">多多消费管理信息系统</div>
+				</div>
+				<div class="col-lg-4  col-md-12 ">
+					<div class="h5 mt-lg-1 mt-md-0 pl-4 ml-lg-5 ml-md-0 text-muted">Joint Stock Limited Company</div>
+				</div>
+			</div>
+			<!-- 注册界面 -->
+			<div class="row no-gutters  ">
+				<div class="col-lg-8 col-md-12">
+					<div class="my_bg my_height " ></div>
+				</div>      
+				<div class="col-lg-4 col-md-12 my_style ">
+					<div class="pl-4 mt-4">
+						<div class="d-flex justify-content-start">
+							<div class="h5 mr-4">用户注册</div>
+							<div class="ml-4 h5"><a href="login.html" class="_login_style ">直接登录</a></div>
+						</div>
+						<hr>
+						<div class="">
+							用户名:<input type="text" id="user_username" class="ml-3 px-3 in1" value="" onblur="find()" placeholder="请输入合格的用户名"/>
+							<div id="user_username_msg" class="_login_width   text-danger"></div>
+						</div>
+						<div class="">
+							密&nbsp;&nbsp;&nbsp;&nbsp;码:<input type="password" id="user_pwd" class="ml-3 px-3 in1" value="" onblur="check_user_pwd()" placeholder="请输入合格的密码 " />
+							
+							<div id="user_pwd_msg" class="_login_width  text-danger"><span class="" >字母和数字组成且至少包含一位大写字母和数字</span></div>
+						</div>
+						<div class="">
+							姓&nbsp;&nbsp;&nbsp;&nbsp;名:<input type="text" id="user_name" class="ml-3 px-3 in1" value="" onblur="check_user_name()" placeholder="请输入合格的用户名"/>
+							<div id="user_name_msg" class="_login_width  text-danger"></div>
+						</div>
+						<div class="">
+							年&nbsp;&nbsp;&nbsp;&nbsp;龄:<input type="number" id="user_age" class="ml-3 px-3 in1" value=""  onblur="check_user_age()" placeholder="请输入正确的年龄"/>
+							<div id="user_age_msg" class="_login_width text-danger"></div>
+						</div>
+						<div class="">
+							电&nbsp;&nbsp;&nbsp;&nbsp;话:<input type="text" id="user_phone" class="ml-3 px-3 in1" value=""  onblur="check_user_phone()" placeholder="请输入正确的电话"/>
+							<div id="user_phone_msg" class="_login_width text-danger"></div>
+						</div>
+						<div class="">
+							邮&nbsp;&nbsp;&nbsp;&nbsp;箱:<input type="email" id="user_email" class="ml-3 px-3 in1" value="" onblur="check_user_email()" placeholder="请输入正确的邮箱" />
+							<div id="user_email_msg" class="_login_width   text-danger"></div>
+						</div>
+						<div class="">
+							<span class="btn_1"id="btn" ><button type="button" onclick="check()" class="my_button_1  ml-3 px-3  btn-primary ">确认</button></span>
+						</div>
+						
+							<!-- <span id="btn" class="ml-5"></span> -->
+					</div>
+				</div>
+ 				<div class="col-12 mt-lg-5 mt-md-1">
+					<p class="text-center text-muted">
+						Copyright ©2020 All rights reserved | This template is made with ♡ by
+						<a href="#">Company</a>
+					</p>
+				</div> 
+			</div>
+	</body>
+</html>
+

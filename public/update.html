@@ -1,0 +1,59 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>修改</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/_update.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/_update.js"></script>
+	</head>
+	<body>
+		<div class="">
+				<table border="1" cellspacing="" cellpadding="" class="border-light border-0 w-100">
+					<tr ><th colspan="2">请修改消费信息</th></tr>
+					<tr>
+						<td>商品名称</td>
+						<td><input type="text" id="info_name" class="border-0 bg-transparent"></td>
+					</tr>
+					
+					<tr>
+						<td>价格(元)</td>
+						<td><input type="text" id="info_price" class=" bg-transparent border-0 " placeholder="单位(元)"></td>
+					</tr>
+					<tr>
+						<td>数量</td>
+						<td><input type="number" id="info_count" class="bg-transparent border-0 "></td>
+					</tr>
+					<tr>
+						<td>消费类型</td>
+						<td>
+							<select name="info_type" value="" size="1" value="" class="border-0  bg-transparent">
+								<option id="bh" value ="百货消费" selected class="h6">百货消费</option>
+								<option id="sh" value ="生活消费">生活消费</option>
+								<option id="rc" value ="日常消费">日常消费</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>消费日期</td>
+						<td><input type="date" id="info_date"class=" bg-transparent border-0 " ></td>
+					</tr>
+					
+					<tr>
+						<td>备注信息</td>
+						<td><input type="text"  id="info_remark" rows="3" cols="5" class=" bg-transparent border-0 "></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							<button type="button" onclick="update(${_info_uid},${_info_id})" class=" bg-transparent border-0 " >修改</button>
+							重填<input type="reset" value="" class=" bg-transparent border-0 " value="重填"/>
+						</td>
+					</tr>
+				</table>
+			
+		</div>
+	</body>
+</html>
